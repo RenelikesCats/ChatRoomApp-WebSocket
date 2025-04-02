@@ -12,7 +12,6 @@ body {
     padding: 0;
     font-weight: 400;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1rem;
     line-height: 1.58;
     color: #333;
     background-color: #f4f4f4;
@@ -45,7 +44,7 @@ input {
     outline: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2{
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -59,20 +58,14 @@ a {
 }
 
 button {
-    box-shadow: none;
     border: 1px solid transparent;
-    font-size: 14px;
-    outline: none;
-    line-height: 100%;
-    white-space: nowrap;
-    vertical-align: middle;
-    padding: 0.6rem 1rem;
+    font-size: 15px;
     border-radius: 4px;
-    transition: all 0.2s ease-in-out;
     cursor: pointer;
     min-height: 38px;
     width: 90px;
 }
+
 
 button.default {
     background-color: #e8e8e8;
@@ -91,31 +84,26 @@ button.accent {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
 }
+button:hover{
+    background-color: #008ab1;
+    transition: 0.3s ease;
+}
 
 #username-page {
     text-align: center;
 }
 
 .username-page-container {
+    margin-top: 100px;
     background: #fff;
     box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
     border-radius: 6px;
     width: 100%;
     max-width: 500px;
     display: inline-block;
-    vertical-align: middle;
     padding: 35px 55px 35px;
     min-height: 250px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    margin-top: -160px;
-}
 
-.username-page-container .username-submit {
-    margin-top: 10px;
 }
 
 #chat-page {
@@ -125,11 +113,9 @@ button.accent {
 
 .chat-container {
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: #fff;
     box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
-    margin-top: 30px;
+    margin: 30px auto auto;
     height: calc(100% - 60px);
     max-height: 600px;
     position: relative;
@@ -156,7 +142,6 @@ button.accent {
     margin: 0;
     border-bottom: 1px solid #f4f4f4;
 }
-
 #chat-page ul li p {
     margin: 0;
 }
