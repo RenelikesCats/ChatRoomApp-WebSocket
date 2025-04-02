@@ -2,10 +2,7 @@ package com.rene.websocketchatapp.config;
 
 import com.rene.websocketchatapp.chat.ChatMessage;
 import com.rene.websocketchatapp.chat.MessageType;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.event.EventListener;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.messaging.simp.stomp.StompHeaderAccessor;
