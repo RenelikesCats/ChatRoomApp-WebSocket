@@ -1,4 +1,4 @@
-Chat Room Web App using WebSocket
+Chat room web application with Java/Spring boot
 
 Dependencies: Spring web, WebSocket, Lombok
 
